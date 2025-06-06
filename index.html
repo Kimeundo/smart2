@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>대한민국 여행가이드 | 전국 여행지와 맛집 정보</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>대한민국 여행가이드</h1>
+            <nav>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="active">홈</a></li>
+                    <li><a href="yeosu.html">여수</a></li>
+                    <li><a href="jeju.html">제주도</a></li>
+                    <li><a href="jeonju.html">전주</a></li>
+                    <li><a href="#request">요청 게시판</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>전국의 아름다운 관광지와 맛집을 한눈에</h2>
+            <p>지역별 맞춤 여행 정보로 완벽한 여행 계획을 세워보세요</p>
+        </div>
+    </section>
+
+    <section class="featured-locations">
+        <div class="container">
+            <h2 class="section-title">지역별 가이드</h2>
+            <div class="location-cards">
+                <div class="location-card">
+                    <img src="https://images.unsplash.com/photo-1604077396222-52284d2a836c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8eWVvc3V8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80" alt="여수 야경">
+                    <div class="card-content">
+                        <h3>여수</h3>
+                        <p>아름다운 바다와 섬, 신선한 해산물을 즐길 수 있는 남해안의 보석</p>
+                        <a href="yeosu.html" class="btn">자세히 보기</a>
+                    </div>
+                </div>
+                <div class="location-card">
+                    <img src="https://images.unsplash.com/photo-1540438754891-89c0d058f078?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="제주 성산일출봉">
+                    <div class="card-content">
+                        <h3>제주도</h3>
+                        <p>한국의 자연 보물, 화산섬에서 즐기는 이국적인 풍경과 맛집</p>
+                        <a href="jeju.html" class="btn">자세히 보기</a>
+                    </div>
+                </div>
+                <div class="location-card">
+                    <img src="https://images.unsplash.com/photo-1601145681954-a5d8335ae60b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8amVvbmp1fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80" alt="전주 한옥마을">
+                    <div class="card-content">
+                        <h3>전주</h3>
+                        <p>전통과 현대가 공존하는 한옥마을, 비빔밥과 한정식의 고향</p>
+                        <a href="jeonju.html" class="btn">자세히 보기</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="request" class="request">
+        <div class="container">
+            <h2 class="section-title">여행 정보 요청</h2>
+            <p class="section-desc">원하는 지역이나 맛집 정보가 더 필요하신가요? 요청을 남겨주세요.</p>
+            <form id="request-form">
+                <div class="form-group">
+                    <label for="name">이름</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">이메일</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="region">관심 지역</label>
+                    <select id="region" name="region">
+                        <option value="여수">여수</option>
+                        <option value="제주도">제주도</option>
+                        <option value="전주">전주</option>
+                        <option value="기타">기타</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">요청 사항</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn">제출하기</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>대한민국 여행가이드</h2>
+                    <p>더 나은 여행을 위한 종합 정보</p>
+                </div>
+                <div class="footer-links">
+                    <h3>바로가기</h3>
+                    <ul>
+                        <li><a href="yeosu.html">여수</a></li>
+                        <li><a href="jeju.html">제주도</a></li>
+                        <li><a href="jeonju.html">전주</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>문의</h3>
+                    <p><i class="fas fa-envelope"></i> info@koreatravelguide.com</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 대한민국 여행가이드. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

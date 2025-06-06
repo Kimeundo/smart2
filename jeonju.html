@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>전주 여행 가이드 | 대한민국 여행가이드</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>전주 여행 가이드</h1>
+            <nav>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">홈</a></li>
+                    <li><a href="yeosu.html">여수</a></li>
+                    <li><a href="jeju.html">제주도</a></li>
+                    <li><a href="jeonju.html" class="active">전주</a></li>
+                    <li><a href="index.html#request">요청 게시판</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero region-hero jeonju-hero">
+        <div class="container">
+            <h2>전주, 전통과 맛의 도시</h2>
+            <p>한옥마을에서 만나는 한국의 전통과 비빔밥의 본고장</p>
+        </div>
+    </section>
+
+    <section class="region-intro">
+        <div class="container">
+            <h2 class="section-title">전주 소개</h2>
+            <div class="intro-content">
+                <div class="intro-text">
+                    <p>전라북도의 중심 도시인 전주는 한국 전통문화의 중심지로, 특히 한옥마을은 조선시대 전통가옥이 밀집되어 있는 국내 최대 규모의 전통 한옥촌입니다.</p>
+                    <p>비빔밥, 콩나물국밥 등 한국 음식문화의 중심지로, 맛의 고장으로 알려져 있습니다. 조선왕조의 발상지라는 역사적 의미와 함께 한옥, 한식, 한지, 한소리 등 한국 전통문화를 모두 경험할 수 있는 도시입니다.</p>
+                </div>
+                <div class="region-map" id="jeonju-map">
+                    <!-- 지도는 script.js에서 로드됩니다 -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="attractions">
+        <div class="container">
+            <h2 class="section-title">주요 관광지</h2>
+            <div class="attractions-list">
+                <div class="attraction-item">
+                    <img src="https://images.unsplash.com/photo-1601145681954-a5d8335ae60b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8amVvbmp1JTIwaGFub2t8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="전주 한옥마을">
+                    <div class="attraction-content">
+                        <h3>전주 한옥마을</h3>
+                        <p>약 700여 채의 전통 한옥이 모여 있는 곳으로, 한복체험, 전통음식 체험 등 다양한 문화체험을 즐길 수 있습니다.</p>
+                        <p><strong>위치:</strong> 전라북도 전주시 완산구 풍남동 일대</p>
+                    </div>
+                </div>
+                <div class="attraction-item">
+                    <img src="https://images.unsplash.com/photo-1602501047521-4d0aa3560759?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Z3llb25nZ2lqZW9ufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="경기전">
+                    <div class="attraction-content">
+                        <h3>경기전</h3>
+                        <p>조선 태조 이성계의 초상화인 어진을 모시는 곳으로, 태조의 위패를 모신 사당과 함께 있습니다.</p>
+                        <p><strong>위치:</strong> 전라북도 전주시 완산구 풍남동 3가 102</p>
+                    </div>
+                </div>
+                <div class="attraction-item">
+                    <img src="https://images.unsplash.com/photo-1600601822435-c34037160710?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8a29yZWFuJTIwdHJhZGl0aW9uYWwlMjBoaWxsfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="오목대">
+                    <div class="attraction-content">
+                        <h3>오목대</h3>
+                        <p>한옥마을의 동쪽에 위치한 작은 언덕으로, 이성계가 황산대첩에서 승리 후 잔치를 벌인 곳이라고 전해집니다.</p>
+                        <p><strong>위치:</strong> 전라북도 전주시 완산구 교동 753-9</p>
+                    </div>
+                </div>
+                <div class="attraction-item">
+                    <img src="https://images.unsplash.com/photo-1582555599578-558aba7b925d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8a29yZWFuJTIwY2F0aG9saWMlMjBjaHVyY2h8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="전동성당">
+                    <div class="attraction-content">
+                        <h3>전동성당</h3>
+                        <p>1914년에 완공된 로마네스크 양식의 건물로, 한옥마을 내에서 독특한 서양 건축양식을 볼 수 있는 곳입니다.</p>
+                        <p><strong>위치:</strong> 전라북도 전주시 완산구 전동3가 400</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="restaurants">
+        <div class="container">
+            <h2 class="section-title">추천 맛집</h2>
+            <div class="restaurants-list">
+                <div class="restaurant-item">
+                    <img src="https://images.unsplash.com/photo-1590301157890-4810ed352733?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8a29yZWFuJTIwYmliaW1iYXB8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="한일관">
+                    <div class="restaurant-content">
+                        <h3>한일관</h3>
+                        <p><strong>추천메뉴:</strong> 전주비빔밥, 콩나물국밥</p>
+                        <p><strong>위치:</strong> 전라북도 전주시 완산구 전동3가 1-4</p>
+                        <p><strong>영업시간:</strong> 08:00-21:00 (월요일 휴무)</p>
+                    </div>
+                </div>
+                <div class="restaurant-item">
+                    <img src="https://images.unsplash.com/photo-1577308856961-8e9ec50d0c67?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8a29yZWFuJTIwYmliaW1iYXB8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="종로회관">
+                    <div class="restaurant-content">
+                        <h3>종로회관</h3>
+                        <p><strong>추천메뉴:</strong> 육회비빔밥, 돌솥비빔밥</p>
+                        <p><strong>위치:</strong> 전라북도 전주시 완산구 경원동3가 10-2</p>
+                        <p><strong>영업시간:</strong> 09:00-21:30 (연중무휴)</p>
+                    </div>
+                </div>
+                <div class="restaurant-item">
+                    <img src="https://images.unsplash.com/photo-1574484462291-1c27126b311c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8a29yZWFuJTIwc291cHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="그때그집">
+                    <div class="restaurant-content">
+                        <h3>그때그집</h3>
+                        <p><strong>추천메뉴:</strong> 콩나물국밥, 수육</p>
+                        <p><strong>위치:</strong> 전라북도 전주시 완산구 풍남문2길 53</p>
+                        <p><strong>영업시간:</strong> 07:00-16:00 (일요일 휴무)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="transportation">
+        <div class="container">
+            <h2 class="section-title">교통 정보</h2>
+            <div class="transport-info">
+                <div class="transport-item">
+                    <i class="fas fa-train"></i>
+                    <h3>기차</h3>
+                    <p>KTX로 서울에서 약 2시간 소요</p>
+                </div>
+                <div class="transport-item">
+                    <i class="fas fa-bus"></i>
+                    <h3>고속버스</h3>
+                    <p>전국 각지에서 전주고속버스터미널로 운행</p>
+                </div>
+                <div class="transport-item">
+                    <i class="fas fa-car"></i>
+                    <h3>자가용</h3>
+                    <p>호남고속도로, 순천완주고속도로 이용</p>
+                </div>
+                <div class="transport-item">
+                    <i class="fas fa-walking"></i>
+                    <h3>시내교통</h3>
+                    <p>한옥마을은 도보로 관광하기 좋음</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>대한민국 여행가이드</h2>
+                    <p>더 나은 여행을 위한 종합 정보</p>
+                </div>
+                <div class="footer-links">
+                    <h3>바로가기</h3>
+                    <ul>
+                        <li><a href="index.html">홈</a></li>
+                        <li><a href="yeosu.html">여수</a></li>
+                        <li><a href="jeju.html">제주도</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>문의</h3>
+                    <p><i class="fas fa-envelope"></i> info@koreatravelguide.com</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 대한민국 여행가이드. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

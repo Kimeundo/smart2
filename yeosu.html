@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>여수 여행 가이드 | 대한민국 여행가이드</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>여수 여행 가이드</h1>
+            <nav>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">홈</a></li>
+                    <li><a href="yeosu.html" class="active">여수</a></li>
+                    <li><a href="jeju.html">제주도</a></li>
+                    <li><a href="jeonju.html">전주</a></li>
+                    <li><a href="index.html#request">요청 게시판</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero region-hero yeosu-hero">
+        <div class="container">
+            <h2>여수, 바다가 선사하는 감동과 맛의 여행</h2>
+            <p>아름다운 야경과 신선한 해산물이 기다리는 남해안의 보석</p>
+        </div>
+    </section>
+
+    <section class="region-intro">
+        <div class="container">
+            <h2 class="section-title">여수 소개</h2>
+            <div class="intro-content">
+                <div class="intro-text">
+                    <p>전라남도 남해안에 위치한 여수는 365개의 크고 작은 섬과 아름다운 해안선으로 이루어진 해양 도시입니다. 특히 밤바다의 야경이 유명하여 '여수 밤바다'라는 노래가 히트할 정도로 그 아름다움을 인정받고 있습니다.</p>
+                    <p>신선한 해산물을 활용한 다양한 음식 문화와, 깨끗한 바다, 특색있는 섬 관광지까지 다양한 매력이 공존하는 곳입니다.</p>
+                </div>
+                <div class="region-map" id="yeosu-map">
+                    <!-- 지도는 script.js에서 로드됩니다 -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="attractions">
+        <div class="container">
+            <h2 class="section-title">주요 관광지</h2>
+            <div class="attractions-list">
+                <div class="attraction-item">
+                    <img src="https://images.unsplash.com/photo-1603830218137-53cee3d72d94?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8b2RvbmdkbyUyMHllb3N1fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="오동도">
+                    <div class="attraction-content">
+                        <h3>오동도</h3>
+                        <p>동백꽃이 아름다운 섬으로, 여수 대표 관광지입니다. 방파제 길을 따라 걸으며 바다 풍경을 감상할 수 있습니다.</p>
+                        <p><strong>위치:</strong> 전라남도 여수시 수정동</p>
+                    </div>
+                </div>
+                <div class="attraction-item">
+                    <img src="https://images.unsplash.com/photo-1600001722945-91e1a90a0513?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZG9sc2FuJTIwYnJpZGdlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="돌산대교">
+                    <div class="attraction-content">
+                        <h3>돌산공원과 돌산대교</h3>
+                        <p>여수 밤바다를 가장 아름답게 볼 수 있는 장소로, 특히 밤에 조명이 켜진 돌산대교의 모습이 환상적입니다.</p>
+                        <p><strong>위치:</strong> 전라남도 여수시 돌산읍</p>
+                    </div>
+                </div>
+                <div class="attraction-item">
+                    <img src="https://images.unsplash.com/photo-1604077353753-4e3b92d42a16?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aHlhbmdpbGFtfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="향일암">
+                    <div class="attraction-content">
+                        <h3>향일암</h3>
+                        <p>일출을 보기 좋은 바다 위 암자로, 여수에서 꼭 가봐야 할 명소 중 하나입니다.</p>
+                        <p><strong>위치:</strong> 전라남도 여수시 돌산읍 향일암로 60</p>
+                    </div>
+                </div>
+                <div class="attraction-item">
+                    <img src="https://images.unsplash.com/photo-1603202456363-1a034efa032d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Z2VvbXVuZG98ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="거문도">
+                    <div class="attraction-content">
+                        <h3>거문도</h3>
+                        <p>남해의 아름다운 섬으로, 등대와 천연 비경을 자랑합니다. 근처의 백도와 함께 방문하기 좋습니다.</p>
+                        <p><strong>위치:</strong> 전라남도 여수시 삼산면 거문도</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="restaurants">
+        <div class="container">
+            <h2 class="section-title">추천 맛집</h2>
+            <div class="restaurants-list">
+                <div class="restaurant-item">
+                    <img src="https://images.unsplash.com/photo-1553163147-622ab57be1c7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8c2VhZm9vZCUyMGtvcmVhfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="삼학집">
+                    <div class="restaurant-content">
+                        <h3>삼학집</h3>
+                        <p><strong>추천메뉴:</strong> 서대회무침</p>
+                        <p><strong>위치:</strong> 전라남도 여수시 이순신광장로 200-3</p>
+                        <p><strong>영업시간:</strong> 09:00-21:00 (화요일 휴무)</p>
+                    </div>
+                </div>
+                <div class="restaurant-item">
+                    <img src="https://images.unsplash.com/photo-1635753415853-0d6ac689a221?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8a29yZWFuJTIwZmlzaCUyMHN0ZXd8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="대성식당">
+                    <div class="restaurant-content">
+                        <h3>대성식당</h3>
+                        <p><strong>추천메뉴:</strong> 삼치회, 서대회</p>
+                        <p><strong>위치:</strong> 전라남도 여수시 교동남1길 5-9</p>
+                        <p><strong>영업시간:</strong> 09:00-21:00 (연중무휴)</p>
+                    </div>
+                </div>
+                <div class="restaurant-item">
+                    <img src="https://images.unsplash.com/photo-1595436252086-7496fb8c75fb?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Z2FsY2hpJTIwa29yZWF8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="섬마을횟집">
+                    <div class="restaurant-content">
+                        <h3>섬마을횟집</h3>
+                        <p><strong>추천메뉴:</strong> 갈치조림, 자연산회</p>
+                        <p><strong>위치:</strong> 전라남도 여수시 국동남9길 5</p>
+                        <p><strong>영업시간:</strong> 10:30-22:00 (월요일 휴무)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="transportation">
+        <div class="container">
+            <h2 class="section-title">교통 정보</h2>
+            <div class="transport-info">
+                <div class="transport-item">
+                    <i class="fas fa-train"></i>
+                    <h3>기차</h3>
+                    <p>KTX로 서울에서 약 3시간 소요</p>
+                </div>
+                <div class="transport-item">
+                    <i class="fas fa-bus"></i>
+                    <h3>버스</h3>
+                    <p>전국 각지에서 여수 종합버스터미널로 운행</p>
+                </div>
+                <div class="transport-item">
+                    <i class="fas fa-car"></i>
+                    <h3>자가용</h3>
+                    <p>순천완주고속도로, 남해고속도로 이용</p>
+                </div>
+                <div class="transport-item">
+                    <i class="fas fa-ship"></i>
+                    <h3>배편</h3>
+                    <p>여수 연안여객터미널에서 거문도 및 주변 섬으로 출발</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>대한민국 여행가이드</h2>
+                    <p>더 나은 여행을 위한 종합 정보</p>
+                </div>
+                <div class="footer-links">
+                    <h3>바로가기</h3>
+                    <ul>
+                        <li><a href="index.html">홈</a></li>
+                        <li><a href="jeju.html">제주도</a></li>
+                        <li><a href="jeonju.html">전주</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>문의</h3>
+                    <p><i class="fas fa-envelope"></i> info@koreatravelguide.com</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 대한민국 여행가이드. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

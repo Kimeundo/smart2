@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>제주도 여행 가이드 | 대한민국 여행가이드</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>제주도 여행 가이드</h1>
+            <nav>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">홈</a></li>
+                    <li><a href="yeosu.html">여수</a></li>
+                    <li><a href="jeju.html" class="active">제주도</a></li>
+                    <li><a href="jeonju.html">전주</a></li>
+                    <li><a href="index.html#request">요청 게시판</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero region-hero jeju-hero">
+        <div class="container">
+            <h2>제주도, 푸른 화산섬의 자연을 만끽하다</h2>
+            <p>한국의 보물 섬, 자연과 맛이 어우러진 천혜의 관광지</p>
+        </div>
+    </section>
+
+    <section class="region-intro">
+        <div class="container">
+            <h2 class="section-title">제주도 소개</h2>
+            <div class="intro-content">
+                <div class="intro-text">
+                    <p>대한민국 최남단에 위치한 화산섬 제주도는 유네스코 세계자연유산으로 등재된 천혜의 관광지입니다. 한라산, 성산일출봉, 거문오름 용암동굴계 등 독특한 자연환경과 제주만의 고유한 문화를 간직하고 있습니다.</p>
+                    <p>제주도는 특유의 현무암 지형과 오름, 깨끗한 해변, 그리고 신선한 해산물과 흑돼지 등 맛있는 음식이 풍부한 곳입니다.</p>
+                </div>
+                <div class="region-map" id="jeju-map">
+                    <!-- 지도는 script.js에서 로드됩니다 -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="attractions">
+        <div class="container">
+            <h2 class="section-title">주요 관광지</h2>
+            <div class="attractions-list">
+                <div class="attraction-item">
+                    <img src="https://images.unsplash.com/photo-1589729132768-58a66ebb5715?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aGFsbGFzYW58ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="한라산">
+                    <div class="attraction-content">
+                        <h3>한라산</h3>
+                        <p>한국에서 가장 높은 산으로, 백록담이라 불리는 분화구가 있습니다. 사계절 모두 다른 매력을 느낄 수 있는 제주의 상징입니다.</p>
+                        <p><strong>위치:</strong> 제주특별자치도 제주시/서귀포시</p>
+                    </div>
+                </div>
+                <div class="attraction-item">
+                    <img src="https://images.unsplash.com/photo-1548218399-9e66fcce0909?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c2VvbmdzYW4lMjBzdW5yaXNlJTIwcGVha3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="성산일출봉">
+                    <div class="attraction-content">
+                        <h3>성산일출봉</h3>
+                        <p>바다 위로 솟아오른 거대한 화산체로, 세계자연유산으로 지정되었습니다. 특히 일출이 아름다운 곳으로 유명합니다.</p>
+                        <p><strong>위치:</strong> 제주특별자치도 서귀포시 성산읍</p>
+                    </div>
+                </div>
+                <div class="attraction-item">
+                    <img src="https://images.unsplash.com/photo-1605020241033-654bed753dec?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dWRvJTIwamVqdXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="우도">
+                    <div class="attraction-content">
+                        <h3>우도</h3>
+                        <p>소가 누워있는 모양을 닮았다 하여 이름 붙여진 작은 섬으로, 하얀 백사장과 에메랄드빛 바다가 아름답습니다.</p>
+                        <p><strong>위치:</strong> 제주특별자치도 제주시 우도면</p>
+                    </div>
+                </div>
+                <div class="attraction-item">
+                    <img src="https://images.unsplash.com/photo-1562021897-94b998f7e64f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c2VvcGppJTIwa29qaXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="섭지코지">
+                    <div class="attraction-content">
+                        <h3>섭지코지</h3>
+                        <p>제주 동부 해안에 위치한 아름다운 해안 절벽지대로, 드라마 촬영지로도 유명합니다.</p>
+                        <p><strong>위치:</strong> 제주특별자치도 서귀포시 성산읍 섭지코지로</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="restaurants">
+        <div class="container">
+            <h2 class="section-title">추천 맛집</h2>
+            <div class="restaurants-list">
+                <div class="restaurant-item">
+                    <img src="https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8a29yZWFuJTIwcG9ya3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="이어돈">
+                    <div class="restaurant-content">
+                        <h3>이어돈</h3>
+                        <p><strong>추천메뉴:</strong> 흑돼지 오겹살</p>
+                        <p><strong>위치:</strong> 제주특별자치도 제주시 애월읍 고내로13길 67</p>
+                        <p><strong>영업시간:</strong> 12:00-22:00 (연중무휴)</p>
+                    </div>
+                </div>
+                <div class="restaurant-item">
+                    <img src="https://images.unsplash.com/photo-1589047133699-9590a4377b35?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8a29yZWFuJTIwZmlzaCUyMHN0ZXd8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="삼원정">
+                    <div class="restaurant-content">
+                        <h3>삼원정</h3>
+                        <p><strong>추천메뉴:</strong> 갈치조림, 갈치구이</p>
+                        <p><strong>위치:</strong> 제주특별자치도 서귀포시 중정로 40</p>
+                        <p><strong>영업시간:</strong> 09:00-22:00 (화요일 휴무)</p>
+                    </div>
+                </div>
+                <div class="restaurant-item">
+                    <img src="https://images.unsplash.com/photo-1590301157890-4810ed352733?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8a29yZWFuJTIwYWJhbG9uZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="해녀의집">
+                    <div class="restaurant-content">
+                        <h3>해녀의집</h3>
+                        <p><strong>추천메뉴:</strong> 전복죽, 해산물 코스</p>
+                        <p><strong>위치:</strong> 제주특별자치도 서귀포시 성산읍 해맞이해안로 2614</p>
+                        <p><strong>영업시간:</strong> 08:00-20:00 (연중무휴)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="transportation">
+        <div class="container">
+            <h2 class="section-title">교통 정보</h2>
+            <div class="transport-info">
+                <div class="transport-item">
+                    <i class="fas fa-plane"></i>
+                    <h3>항공</h3>
+                    <p>전국 각 도시에서 제주국제공항으로 운항 (서울에서 약 1시간)</p>
+                </div>
+                <div class="transport-item">
+                    <i class="fas fa-ship"></i>
+                    <h3>여객선</h3>
+                    <p>목포, 완도, 부산에서 제주항으로 운항</p>
+                </div>
+                <div class="transport-item">
+                    <i class="fas fa-bus"></i>
+                    <h3>제주 버스</h3>
+                    <p>공항에서 서귀포, 애월, 성산 등 주요 지역으로 운행</p>
+                </div>
+                <div class="transport-item">
+                    <i class="fas fa-car"></i>
+                    <h3>렌트카</h3>
+                    <p>제주도 여행에 가장 편리한 이동수단</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>대한민국 여행가이드</h2>
+                    <p>더 나은 여행을 위한 종합 정보</p>
+                </div>
+                <div class="footer-links">
+                    <h3>바로가기</h3>
+                    <ul>
+                        <li><a href="index.html">홈</a></li>
+                        <li><a href="yeosu.html">여수</a></li>
+                        <li><a href="jeonju.html">전주</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>문의</h3>
+                    <p><i class="fas fa-envelope"></i> info@koreatravelguide.com</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 대한민국 여행가이드. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
